@@ -1,0 +1,1 @@
+const a=()=>{const o=navigator.userAgent.toLowerCase(),s=o.match(/iphone os/i)=="iphone os",c=o.match(/midp/i)=="midp",i=o.match(/rv:1.2.3.4/i)=="rv:1.2.3.4",n=o.match(/ucweb/i)=="ucweb",t=o.match(/android/i)=="android",e=o.match(/windows ce/i)=="windows ce",d=o.match(/windows mobile/i)=="windows mobile";return s||c||i||n||t||e||d};export{a as d};
