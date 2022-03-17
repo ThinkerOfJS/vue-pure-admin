@@ -77,6 +77,7 @@ router.beforeEach((to: toRouteType, _from, next) => {
       // 刷新
       if (usePermissionStoreHook().wholeMenus.length === 0)
         initRouter(name.username).then((router: Router) => {
+          console.log(router.options.routes);
           if (!useMultiTagsStoreHook().getMultiTagsCache) {
             const handTag = (
               path: string,

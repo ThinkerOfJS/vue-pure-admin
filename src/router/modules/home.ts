@@ -21,6 +21,15 @@ const homeRouter = {
         title: $t("menus.hshome"),
         i18n: true
       }
+    },
+    {
+      path: "/test",
+      name: "test",
+      component: () => import("/@/views/home/test.vue"),
+      meta: {
+        title: $t("menus.hshome"),
+        i18n: true
+      }
     }
   ]
 };
